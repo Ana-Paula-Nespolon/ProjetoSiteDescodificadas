@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Caveat & display=swap');
+
+
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration-style: none;
+    font-size: medium;
+    align-items: space-around;
+    font-size: 30px;
+    color: beige;
+    background-color: #7c4a59 100%;
+    font-style: italic;
+    flex-direction: row;
+    font-family: "Caveat" "cursiva";
+}
+
+body {
+    font-size: 100%;
+    align-items: space-around;
+    font-family: Caveat, cursiva;
+    background-color: #7c4a59
+}
+
+.banner {
+    background-image: url(img.2\ursinhos1.png);
+}
+
+.flex-container {
+    display: flex;
+  }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Caveat', cursiva;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Caveat" "cursiva";
+    font-size: large;
+    color:beige;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.h1 {
+    font-size: 150%;
+    align-items: space-around;
+    color:#f5f5dc;
+    font-size: large;
+    font-family: Caveat, cursiva;
+
+}
+
+
+.h3 {
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    font-size: 30px;
+    color: beige;
+    gap: 20px;
+    border-top: 0.4px solid beige;
+
+}
+
+.a {
+    font-size: 100%;
+    align-items: space-around;
+    color:#f5f5dc;
+    font-family: Caveat, cursiva;
+    
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+    font-size: 30px;
+    gap: 25px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Caveat', cursiva;
+    color:beige;
+    font-weight: 400;
+    gap: 30px;
+    font-size: 25px;
+    
+}
+
+.conteúdo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid beige;
+    
+}
+
+.conteudo-principal {
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: beige;
+    
+}
+
+.rodape {
+    padding: 30px;
+    text-align: right;
+    border-top: 0.4px solid beige;
+    font-size: 25px;
+}
+    

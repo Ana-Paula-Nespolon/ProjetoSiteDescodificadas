@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family= Caveat & display=swap');
+
+
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration-style: none;
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+    background-color: #7c4a59 100%;
+    flex-direction: row;
+    font-family: "Caveat" "cursiva";
+}
+
+body {
+    font-size: 100%;
+    align-items: center;
+    font-style: italic;
+    color: beige;
+    font-family: Caveat, cursiva;
+    background-color: #7c4a59
+}
+
+.banner {
+    background-image: url(img.2\ursinhos1.png);
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Caveat', cursiva;
+    font-size: large;
+    font-weight: 400;
+    color:beige
+    text-align: center;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    color: beige;
+    gap: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    color: beige;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Caveat" "cursiva";
+    font-size: large;
+    color:beige;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.h1 {
+    font-size: 150%;
+    align-items: center;
+    color:#f5f5dc;
+    text-align: center;
+    font-size: large;
+    font-family: Caveat, cursiva;
+
+}
+
+.h2 {
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    font-size: 30px;
+    color: beige;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-top: 0.4px solid beige;
+
+}
+
+
+.h3 {
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    font-size: 30px;
+    color: beige;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-top: 0.4px solid beige;
+
+}
+
+.pre {
+    font-family: 'Caveat', cursiva;
+    font-weight: 400;
+    font-size: 30px;
+    color: beige;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-top: 0.4px solid beige;
+
+}
+
+.a {
+    font-size: 100%;
+    align-items: space-around;
+    color:#f5f5dc;
+    text-align: center;
+    align-items: center;
+    font-family: Caveat, cursiva;
+    
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.rodape {
+    padding: 30px;
+    text-align: right;
+    border-top: 0.4px solid beige;
+    font-size: 25px;
+}
+    
